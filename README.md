@@ -12,7 +12,7 @@ python scaffold.py
 
 - [x] **1.** standardize_features
 - [x] **2.** initialize_parameters
-- [ ] **3.** compute_scores
+- [x] **3.** compute_scores
 - [ ] **4.** predict_from_scores
 - [ ] **5.** hinge_loss_example
 - [ ] **6.** svm_objective
