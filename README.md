@@ -14,7 +14,7 @@ python scaffold.py
 - [x] **2.** initialize_parameters
 - [x] **3.** compute_scores
 - [x] **4.** predict_from_scores
-- [ ] **5.** hinge_loss_example
+- [x] **5.** hinge_loss_example
 - [ ] **6.** svm_objective
 - [ ] **7.** compute_gradients
 - [ ] **8.** apply_update
