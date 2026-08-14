@@ -11,7 +11,7 @@ python scaffold.py
 ## Steps
 
 - [x] **1.** standardize_features
-- [ ] **2.** initialize_parameters
+- [x] **2.** initialize_parameters
 - [ ] **3.** compute_scores
 - [ ] **4.** predict_from_scores
 - [ ] **5.** hinge_loss_example
