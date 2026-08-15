@@ -18,7 +18,7 @@ python scaffold.py
 - [x] **6.** svm_objective
 - [x] **7.** compute_gradients
 - [x] **8.** apply_update
-- [ ] **9.** train_svm
+- [x] **9.** train_svm
 - [ ] **10.** predict_labels
 - [ ] **11.** accuracy_score
 
