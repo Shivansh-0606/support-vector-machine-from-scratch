@@ -17,7 +17,7 @@ python scaffold.py
 - [x] **5.** hinge_loss_example
 - [x] **6.** svm_objective
 - [x] **7.** compute_gradients
-- [ ] **8.** apply_update
+- [x] **8.** apply_update
 - [ ] **9.** train_svm
 - [ ] **10.** predict_labels
 - [ ] **11.** accuracy_score
