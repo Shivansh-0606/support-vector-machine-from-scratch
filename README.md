@@ -20,7 +20,7 @@ python scaffold.py
 - [x] **8.** apply_update
 - [x] **9.** train_svm
 - [x] **10.** predict_labels
-- [ ] **11.** accuracy_score
+- [x] **11.** accuracy_score
 
 ---
 
