@@ -63,15 +63,30 @@ def predict_from_scores(scores):
 def hinge_loss_example(score, y):
     # TODO: return the hinge loss for a single example with raw score `score` and label y in {-1, +1}.
     
-    hinge_loss = abs(y - score)
+    # hinge_loss = abs(y - score)
 
-    if hinge_loss == 1:
-        hinge_loss = 0
+    # if hinge_loss == 1:
+    #     hinge_loss = 0
     
-    return hinge_loss
+    # return hinge_loss
 
-# Step 6 - svm_objective (not yet solved)
-# TODO: implement
+    hinge_losses = np.maximum(0.0, 1.0 - y * score)
+
+    return hinge_losses
+
+# Step 6 - svm_objective
+def svm_objective(x, y, params, reg_lambda):
+    # TODO: return mean hinge loss over the dataset plus reg_lambda * (w dot w)
+    scores = compute_scores(x,params)
+
+    hinge_loss = hinge_loss_example(scores,y)
+
+    w = params['w']
+    reg_term = reg_lambda * (w @ w)
+
+    ans = np.mean(hinge_loss) + reg_term
+
+    return float(ans)
 
 # Step 7 - compute_gradients (not yet solved)
 # TODO: implement
